@@ -1,0 +1,32 @@
+print('Hello, what is your name?')
+myName = input()
+print('Hello there ' + myName)
+print('Did you know your name is ' + (len(myName)) + 'letters long?')
+myAge = int(input('And how old are you?:'))
+if myAge < 30:
+    print("That's younger than I thought you were.")
+elif myAge > 31:
+    print("That's older than I thought you were.")
+else:
+    print("I thought so, I have been told you're 30 before.")
+print('And how are you today?')
+print(len(myName))
+moods = ['fine', 'tired', 'ok', 'sad']
+mood = input()
+if mood == 'ok':
+    print("That's Great!")
+elif mood == 'sad':
+    print("Oh dear, what's wrong?")
+elif mood == 'tired':
+    print("Are you sure you've been sleeping enough?")
+else:
+    print('I see.')
+print('Have you spoken to Sarah today?')
+answer = input('Yes or no?:')
+
+if answer == 'yes':
+    print("That's good.")
+elif answer == 'no':
+    print("You should give her a ring then!")
+else:
+    print("Please answer yes or no.")
